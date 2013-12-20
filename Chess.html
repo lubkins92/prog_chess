@@ -1,0 +1,141 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "Windows-1251">
+		<script type="text/javascript" src="scripts.js"></script>
+		<title>Chess</title>
+	</head> 
+	<form name="Chess"> 
+	</form>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://localhost:81/socket.io/socket.io.js"></script>
+	<body>
+	<script language="javascript" type="text/javascript"> 
+	
+	socket = io.connect('http://localhost:81');
+	socket.on('connected');
+	
+	socket.on("waitingForPlayers",function()
+	{
+		alert("Please, waiting for opponent!");
+		turn = 1;
+		color=1;
+	});
+	
+	socket.on("gameStarted",function()
+	{
+		if ((turn==1) && (color=1)) alert("You are play with white figures");
+		else { turn=0; color=1; alert("You are play with black figures"); }
+	});
+	
+	socket.on("makeMove", function (data) 
+	{
+        GO(data.xfrom, data.yfrom, data.xto, data.yto, data.newfigure);
+    });
+
+	socket.on("disconnect",function()
+	{
+		//if (data==true) 
+		alert("Your are Lose!!!");	
+		//else if (data==false) alert("Your opponent leave the game! You are Win!!!");
+	});
+
+	socket.emit("readyToPlay");
+	
+	tbl = ""; //ссылка на таблицу
+		
+	piece = {
+	posI: -1, //текущая позиция I
+	posJ: -1, //текущая позиция J
+	wantI: -1, //Желаемая позиция (еще не перешли) I
+	wantJ: -1, //Желаемая позиция (еще не перешли) J
+	};
+		
+	var newElem = document.createElement("table");
+	newElem.setAttribute("id", "table1"); 
+	newElem.setAttribute("class", "tbl1");
+	newElem.style.backgroundColor = "#006400";
+	newElem.style.border = "2px solid  #006400";
+	newElem.cellSpacing ="6px";
+		
+	turn=2; //первый ход белыми
+	color=2;
+	change=0;  //смена пешки по окончанию поля
+		
+	kor = {
+	figI: -1, //позиция возможно шахующей фигуры
+	figJ: -1, //позиция возможно шахующей фигуры
+	I: -1,   //позиция шахующей фигуры
+	J: -1,	 //позиция шахующей фигуры
+	whI: 7, //текущая позиция I белого короля
+	whJ: 4, //текущая позиция J белого короля
+	blI: 0, //текущая позиция I черного короля
+	blJ: 4, //текущая позиция J черного короля
+	oldI: -1, oldJ: -1, //старая позиция короля
+	};
+		
+	korkol=0; // сколько фигур ставят шах королю
+	search=0; //поиск на шах
+		
+	var fl=0;
+		
+	for (var i=0; i < 8; i++) 
+	{
+		var newRow=newElem.insertRow(i); 
+		fl=!fl;
+
+		for (var j=0; j < 8; j++)
+		{		
+			var newCell = newRow.insertCell(j);	
+			newCell.width="100";
+			newCell.height="100";  
+				
+			if (fl==1)  
+			{
+				newCell.style.backgroundColor = "lemonchiffon"; newCell.setAttribute("title", "white");
+				if ((i>1) || (i<6)) { newCell.setAttribute("name", "white"); newCell.setAttribute("type", "free"); }	
+				if (i==1) { newCell.style.backgroundImage = "url('6.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "peshka"); }	
+				if (i==6) { newCell.style.backgroundImage = "url('66.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "peshka"); }	
+				if ((i==0) && (j==0)) { newCell.style.backgroundImage = "url('3.png')";	newCell.setAttribute("name", "black"); newCell.setAttribute("type", "ladya"); }
+				if ((i==7) && (j==7)) { newCell.style.backgroundImage = "url('33.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "ladya"); }
+				if ((i==0) && (j==6)) { newCell.style.backgroundImage = "url('1.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "kon"); }
+				if ((i==7) && (j==1)) { newCell.style.backgroundImage = "url('11.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "kon"); }
+				if ((i==0) && (j==2)) { newCell.style.backgroundImage = "url('4.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "slon"); }
+				if ((i==7) && (j==5)) { newCell.style.backgroundImage = "url('44.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "slon"); }
+				if ((i==0) && (j==4)) { newCell.style.backgroundImage = "url('5.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "korol"); }
+				if ((i==7) && (j==3)) { newCell.style.backgroundImage = "url('22.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "ferz"); }
+			}
+
+			else
+			{
+				newCell.style.backgroundColor="maroon"; newCell.setAttribute("title", "black");
+				if ((i>1) || (i<6)) { newCell.setAttribute("name", "black"); newCell.setAttribute("type", "free"); }	
+				if (i==1) { newCell.style.backgroundImage = "url('6.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "peshka"); }	
+				if (i==6) { newCell.style.backgroundImage = "url('66.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "peshka"); }	
+				if ((i==0) && (j==7)) { newCell.style.backgroundImage = "url('3.png')";	newCell.setAttribute("name", "black"); newCell.setAttribute("type", "ladya"); }
+				if ((i==7) && (j==0)) { newCell.style.backgroundImage = "url('33.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "ladya"); }
+				if ((i==0) && (j==1)) { newCell.style.backgroundImage = "url('1.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "kon"); }
+				if ((i==7) && (j==6)) { newCell.style.backgroundImage = "url('11.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "kon"); }
+				if ((i==0) && (j==5)) { newCell.style.backgroundImage = "url('4.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "slon"); }
+				if ((i==7) && (j==2)) { newCell.style.backgroundImage = "url('44.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "slon"); }
+				if ((i==0) && (j==3)) { newCell.style.backgroundImage = "url('2.png')"; newCell.setAttribute("name", "black"); newCell.setAttribute("type", "ferz"); }
+				if ((i==7) && (j==4)) { newCell.style.backgroundImage = "url('55.png')"; newCell.setAttribute("name", "white"); newCell.setAttribute("type", "korol"); }	
+			} 
+				
+			newCell.style.backgroundPosition = "center center";
+			newCell.style.backgroundSize = newCell.width + 'px ' + newCell.height + 'px';
+			
+			fl=!fl;	
+		} 
+	}	 
+	document.body.appendChild(newElem);
+	tbl = document.getElementById("table1");
+				
+	$("td").click(function() 
+	{ 
+		push(this);
+	});
+	
+	</script>
+	</body>
+</html>
