@@ -1,0 +1,3440 @@
+- Rooms count = 0
+- Sockets count in  room = 1
+- YiUDPdQSelHbp_IIy6_N is connected.
+- Rooms count = 1
+- Room #YiUDPdQSelHbp_IIy6_N has been created.
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in /YiUDPdQSelHbp_IIy6_N room = 1
+- Sockets count in  room = 2
+- Sockets count in /YiUDPdQSelHbp_IIy6_N room = 1
+- Rooms count = 2
+- 5mXY8vCk1vNm9aCOy6_O is connected.
+- Room # YiUDPdQSelHbp_IIy6_N is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /YiUDPdQSelHbp_IIy6_N room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- YiUDPdQSelHbp_IIy6_N maked move from 3 6 to 3 5
+- Disconnect called by 5mXY8vCk1vNm9aCOy6_O
+- YiUDPdQSelHbp_IIy6_N disconnected.
+- Disconnect called by YiUDPdQSelHbp_IIy6_N
+- Next
+- Sockets count in  room = 2
+- Sockets count in /YiUDPdQSelHbp_IIy6_N room = 1
+- Rooms count = 2
+- 5mXY8vCk1vNm9aCOy6_O disconnected.
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 0
+- Next
+- Rooms count = 0
+- Sockets count in  room = 1
+- Rooms count = 1
+- D4Mbk21qR8aUUK6Jy6_P is connected.
+- Room #D4Mbk21qR8aUUK6Jy6_P has been created.
+- Sockets count in  room = 1
+- Sockets count in /D4Mbk21qR8aUUK6Jy6_P room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Rooms count = 2
+- Sockets count in /D4Mbk21qR8aUUK6Jy6_P room = 1
+- Room # D4Mbk21qR8aUUK6Jy6_P is full.
+- 5PRfoewK5H0kkAz0y6_Q is connected.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /D4Mbk21qR8aUUK6Jy6_P room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 3 6 to 3 5
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 7 3 to 6 4
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 6 4 to 5 5
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 4 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 7 6 to 7 4
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 7 2 to 5 2
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 7 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 3 2 to 3 3
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- 5PRfoewK5H0kkAz0y6_Q maked move from 3 3 to 3 4
+ - Make move called.
+- Make move valid.
+- D4Mbk21qR8aUUK6Jy6_P maked move from 7 1 to 7 0
+- Disconnect called by D4Mbk21qR8aUUK6Jy6_P
+- Sockets count in  room = 2
+- Sockets count in /D4Mbk21qR8aUUK6Jy6_P room = 1
+- Rooms count = 2
+- 5PRfoewK5H0kkAz0y6_Q disconnected.
+- Next
+- Disconnect called by 5PRfoewK5H0kkAz0y6_Q
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- w8aQZnATPbz64s13y6_R is connected.
+- Disconnect called by w8aQZnATPbz64s13y6_R
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- A90Pn4Pxyi4W7CEcy6_S is connected.
+- Room #A90Pn4Pxyi4W7CEcy6_S has been created.
+- Sockets count in  room = 1
+- Sockets count in /A90Pn4Pxyi4W7CEcy6_S room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /A90Pn4Pxyi4W7CEcy6_S room = 1
+- Rooms count = 2
+- Ry010ZhyDIN4R_-ky6_T is connected.
+- Room # A90Pn4Pxyi4W7CEcy6_S is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /A90Pn4Pxyi4W7CEcy6_S room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 7 6 to 7 4
+ - Make move called.
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 7 1 to 7 2
+ - Make move called.
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 6 6 to 6 4
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 7 2 to 7 3
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 4 6 to 4 5
+ - Make move called.
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 7 2 to 2 2
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 7 3 to 7 2
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 1 1 to 1 2
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- Ry010ZhyDIN4R_-ky6_T maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- A90Pn4Pxyi4W7CEcy6_S maked move from 7 1 to 7 0
+- Disconnect called by A90Pn4Pxyi4W7CEcy6_S
+- Sockets count in  room = 2
+- Sockets count in /A90Pn4Pxyi4W7CEcy6_S room = 1
+- Rooms count = 2
+- Next
+- Ry010ZhyDIN4R_-ky6_T disconnected.
+- Disconnect called by Ry010ZhyDIN4R_-ky6_T
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- A9RI0M14B5YcW2Hqy6_U is connected.
+- Disconnect called by A9RI0M14B5YcW2Hqy6_U
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- xgr0wltjTbnW6x_Ly6_V is connected.
+- Room #xgr0wltjTbnW6x_Ly6_V has been created.
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in /xgr0wltjTbnW6x_Ly6_V room = 1
+- Sockets count in  room = 2
+- Sockets count in /xgr0wltjTbnW6x_Ly6_V room = 1
+- Rooms count = 2
+- kUbnmI0GZtWV0XYby6_W is connected.
+- Room # xgr0wltjTbnW6x_Ly6_V is full.
+- 0 game started.
+- Sockets count in  room = 2
+- 1 game started.
+- Sockets count in /xgr0wltjTbnW6x_Ly6_V room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- xgr0wltjTbnW6x_Ly6_V maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- kUbnmI0GZtWV0XYby6_W maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- xgr0wltjTbnW6x_Ly6_V maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- kUbnmI0GZtWV0XYby6_W maked move from 7 0 to 7 1
+ - Make move called.
+- Make move valid.
+- xgr0wltjTbnW6x_Ly6_V maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- kUbnmI0GZtWV0XYby6_W maked move from 7 1 to 7 2
+ - Make move called.
+- Make move valid.
+- xgr0wltjTbnW6x_Ly6_V maked move from 4 6 to 4 5
+ - Make move called.
+- Make move valid.
+- kUbnmI0GZtWV0XYby6_W maked move from 7 2 to 0 2
+ - Make move called.
+- xgr0wltjTbnW6x_Ly6_V maked move from 7 3 to 7 2
+- Make move valid.
+ - Make move called.
+- Make move valid.
+- kUbnmI0GZtWV0XYby6_W maked move from 2 1 to 2 2
+ - Make move called.
+- Make move valid.
+- xgr0wltjTbnW6x_Ly6_V maked move from 7 2 to 7 1
+ - Make move called.
+- kUbnmI0GZtWV0XYby6_W maked move from 4 1 to 4 2
+- Make move valid.
+- Disconnect called by xgr0wltjTbnW6x_Ly6_V
+- Next
+- Sockets count in  room = 2
+- Sockets count in /xgr0wltjTbnW6x_Ly6_V room = 1
+- Rooms count = 2
+- kUbnmI0GZtWV0XYby6_W disconnected.
+- Disconnect called by kUbnmI0GZtWV0XYby6_W
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- MW2BIjbNNkqNjifKy6_X is connected.
+- Room #MW2BIjbNNkqNjifKy6_X has been created.
+- Sockets count in  room = 1
+- Sockets count in /MW2BIjbNNkqNjifKy6_X room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /MW2BIjbNNkqNjifKy6_X room = 1
+- Rooms count = 2
+- noYQlRPD4W7_4yXdy6_Y is connected.
+- Room # MW2BIjbNNkqNjifKy6_X is full.
+- 0 game started.
+- Sockets count in /MW2BIjbNNkqNjifKy6_X room = 2
+- 1 game started.
+- Sockets count in  room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- MW2BIjbNNkqNjifKy6_X maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- noYQlRPD4W7_4yXdy6_Y maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- MW2BIjbNNkqNjifKy6_X maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- noYQlRPD4W7_4yXdy6_Y maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- MW2BIjbNNkqNjifKy6_X maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- noYQlRPD4W7_4yXdy6_Y maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- MW2BIjbNNkqNjifKy6_X maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- noYQlRPD4W7_4yXdy6_Y maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- MW2BIjbNNkqNjifKy6_X maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- noYQlRPD4W7_4yXdy6_Y maked move from 3 2 to 3 3
+- Disconnect called by MW2BIjbNNkqNjifKy6_X
+- Next
+- Sockets count in  room = 2
+- Sockets count in /MW2BIjbNNkqNjifKy6_X room = 1
+- noYQlRPD4W7_4yXdy6_Y disconnected.
+- Disconnect called by noYQlRPD4W7_4yXdy6_Y
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Rooms count = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- cWHKdeRn0YuAiG9Uy6_Z is connected.
+- Rooms count = 1
+- Room #cWHKdeRn0YuAiG9Uy6_Z has been created.
+- Sockets count in  room = 1
+- Sockets count in /cWHKdeRn0YuAiG9Uy6_Z room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /cWHKdeRn0YuAiG9Uy6_Z room = 1
+- Rooms count = 2
+- -wJetZ0RyRPV__3ny6_a is connected.
+- Room # cWHKdeRn0YuAiG9Uy6_Z is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /cWHKdeRn0YuAiG9Uy6_Z room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- cWHKdeRn0YuAiG9Uy6_Z maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- -wJetZ0RyRPV__3ny6_a maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- cWHKdeRn0YuAiG9Uy6_Z maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- -wJetZ0RyRPV__3ny6_a maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- cWHKdeRn0YuAiG9Uy6_Z maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- -wJetZ0RyRPV__3ny6_a maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- cWHKdeRn0YuAiG9Uy6_Z maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- -wJetZ0RyRPV__3ny6_a maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- cWHKdeRn0YuAiG9Uy6_Z maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- -wJetZ0RyRPV__3ny6_a maked move from 4 2 to 4 3
+- Next
+- Sockets count in  room = 2
+- Sockets count in /cWHKdeRn0YuAiG9Uy6_Z room = 1
+- Rooms count = 2
+- -wJetZ0RyRPV__3ny6_a disconnected.
+- Disconnect called by -wJetZ0RyRPV__3ny6_a
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Disconnect called by cWHKdeRn0YuAiG9Uy6_Z
+- Sockets count in  room = 1
+- Rooms count = 1
+- ikYhWRuKaTkwalV9y6_b is connected.
+- Room #ikYhWRuKaTkwalV9y6_b has been created.
+- Sockets count in  room = 1
+- Sockets count in /ikYhWRuKaTkwalV9y6_b room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /ikYhWRuKaTkwalV9y6_b room = 1
+- Rooms count = 2
+- 5nYD2zTDpvXj-jefy6_c is connected.
+- Room # ikYhWRuKaTkwalV9y6_b is full.
+- 0 game started.
+- Sockets count in  room = 2
+- Sockets count in /ikYhWRuKaTkwalV9y6_b room = 2
+- Rooms count = 2
+- 1 game started.
+- Make move valid.
+- ikYhWRuKaTkwalV9y6_b maked move from 6 6 to 6 4
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 5nYD2zTDpvXj-jefy6_c maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- ikYhWRuKaTkwalV9y6_b maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 5nYD2zTDpvXj-jefy6_c maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- ikYhWRuKaTkwalV9y6_b maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 5nYD2zTDpvXj-jefy6_c maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- ikYhWRuKaTkwalV9y6_b maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 5nYD2zTDpvXj-jefy6_c maked move from 4 1 to 4 2
+- Make move valid.
+- ikYhWRuKaTkwalV9y6_b maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 5nYD2zTDpvXj-jefy6_c maked move from 4 2 to 4 3
+- Disconnect called by ikYhWRuKaTkwalV9y6_b
+- Next
+- Sockets count in  room = 2
+- Sockets count in /ikYhWRuKaTkwalV9y6_b room = 1
+- Rooms count = 2
+- 5nYD2zTDpvXj-jefy6_c disconnected.
+- Disconnect called by 5nYD2zTDpvXj-jefy6_c
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- UOZSb3PODh0piwN4y6_d is connected.
+- Rooms count = 1
+- Disconnect called by UOZSb3PODh0piwN4y6_d
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- cTOlW91d6CyIrRfby6_e is connected.
+- Room #cTOlW91d6CyIrRfby6_e has been created.
+- Sockets count in  room = 1
+- Sockets count in /cTOlW91d6CyIrRfby6_e room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /cTOlW91d6CyIrRfby6_e room = 1
+- Rooms count = 2
+- e5yrN3Is08ghwsJ1y6_f is connected.
+- Room # cTOlW91d6CyIrRfby6_e is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /cTOlW91d6CyIrRfby6_e room = 2
+- Rooms count = 2
+- Make move valid.
+ - Make move called.
+- cTOlW91d6CyIrRfby6_e maked move from 3 6 to 3 5
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 7 3 to 6 4
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 7 6 to 7 4
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 7 4 to 7 3
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 6 4 to 6 5
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- e5yrN3Is08ghwsJ1y6_f maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- cTOlW91d6CyIrRfby6_e maked move from 7 0 to 6 0
+- Disconnect called by cTOlW91d6CyIrRfby6_e
+- Next
+- Sockets count in  room = 2
+- Sockets count in /cTOlW91d6CyIrRfby6_e room = 1
+- Rooms count = 2
+- e5yrN3Is08ghwsJ1y6_f disconnected.
+- Disconnect called by e5yrN3Is08ghwsJ1y6_f
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- kLCXiQfvvLUVgvemy6_g is connected.
+- Room #kLCXiQfvvLUVgvemy6_g has been created.
+- Sockets count in  room = 1
+- Sockets count in /kLCXiQfvvLUVgvemy6_g room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /kLCXiQfvvLUVgvemy6_g room = 1
+- Rooms count = 2
+- Rj6O-uYKjVi6-YYBy6_h is connected.
+- Room # kLCXiQfvvLUVgvemy6_g is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /kLCXiQfvvLUVgvemy6_g room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- Rj6O-uYKjVi6-YYBy6_h maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- Rj6O-uYKjVi6-YYBy6_h maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- Rj6O-uYKjVi6-YYBy6_h maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- Rj6O-uYKjVi6-YYBy6_h maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- Rj6O-uYKjVi6-YYBy6_h maked move from 4 0 to 4 1
+ - Make move called.
+- Make move valid.
+- kLCXiQfvvLUVgvemy6_g maked move from 7 0 to 6 0
+- Disconnect called by kLCXiQfvvLUVgvemy6_g
+- Next
+- Sockets count in  room = 2
+- Sockets count in /kLCXiQfvvLUVgvemy6_g room = 1
+- Rooms count = 2
+- Rj6O-uYKjVi6-YYBy6_h disconnected.
+- Sockets count in  room = 2
+- Next
+- Rooms count = 1
+- Disconnect called by Rj6O-uYKjVi6-YYBy6_h
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 8_xYxKw65hA8HkjHy6_i is connected.
+- Room #8_xYxKw65hA8HkjHy6_i has been created.
+- Sockets count in  room = 1
+- Sockets count in /8_xYxKw65hA8HkjHy6_i room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /8_xYxKw65hA8HkjHy6_i room = 1
+- Rooms count = 2
+- t6JF675SGxqM10Jky6_j is connected.
+- Room # 8_xYxKw65hA8HkjHy6_i is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /8_xYxKw65hA8HkjHy6_i room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 8_xYxKw65hA8HkjHy6_i maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- t6JF675SGxqM10Jky6_j maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 8_xYxKw65hA8HkjHy6_i maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- t6JF675SGxqM10Jky6_j maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 8_xYxKw65hA8HkjHy6_i maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- t6JF675SGxqM10Jky6_j maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- 8_xYxKw65hA8HkjHy6_i maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- t6JF675SGxqM10Jky6_j maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- 8_xYxKw65hA8HkjHy6_i maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- t6JF675SGxqM10Jky6_j maked move from 4 1 to 4 2
+- Disconnect called by 8_xYxKw65hA8HkjHy6_i
+- Next
+- Sockets count in  room = 2
+- Rooms count = 2
+- t6JF675SGxqM10Jky6_j disconnected.
+- Sockets count in /8_xYxKw65hA8HkjHy6_i room = 1
+- Disconnect called by t6JF675SGxqM10Jky6_j
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 6GaeBWTOqsJBXrrvy6_k is connected.
+- Disconnect called by 6GaeBWTOqsJBXrrvy6_k
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- A3AawJ1qegpXtnC-y6_l is connected.
+- Room #A3AawJ1qegpXtnC-y6_l has been created.
+- Sockets count in  room = 1
+- Sockets count in /A3AawJ1qegpXtnC-y6_l room = 1
+- Rooms count = 2
+- Sockets count in /A3AawJ1qegpXtnC-y6_l room = 1
+- Rooms count = 2
+- YR06KxiP62kzTfSVy6_m is connected.
+- Room # A3AawJ1qegpXtnC-y6_l is full.
+- Sockets count in  room = 2
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /A3AawJ1qegpXtnC-y6_l room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- A3AawJ1qegpXtnC-y6_l maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- YR06KxiP62kzTfSVy6_m maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- A3AawJ1qegpXtnC-y6_l maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- YR06KxiP62kzTfSVy6_m maked move from 7 0 to 7 2
+ - Make move called.
+- A3AawJ1qegpXtnC-y6_l maked move from 5 6 to 5 5
+- Make move valid.
+ - Make move called.
+- Make move valid.
+- YR06KxiP62kzTfSVy6_m maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- A3AawJ1qegpXtnC-y6_l maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- YR06KxiP62kzTfSVy6_m maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- A3AawJ1qegpXtnC-y6_l maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- YR06KxiP62kzTfSVy6_m maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- A3AawJ1qegpXtnC-y6_l maked move from 7 0 to 6 0
+- Disconnect called by A3AawJ1qegpXtnC-y6_l
+- Sockets count in  room = 2
+- Sockets count in /A3AawJ1qegpXtnC-y6_l room = 1
+- Rooms count = 2
+- YR06KxiP62kzTfSVy6_m disconnected.
+- Disconnect called by YR06KxiP62kzTfSVy6_m
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Next
+- Sockets count in  room = 1
+- Rooms count = 1
+- UcIqhKZR_kFL_onAy6_n is connected.
+- Room #UcIqhKZR_kFL_onAy6_n has been created.
+- Sockets count in  room = 1
+- Sockets count in /UcIqhKZR_kFL_onAy6_n room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /UcIqhKZR_kFL_onAy6_n room = 1
+- Rooms count = 2
+- u3FtRx4AIpMy-0YDy6_o is connected.
+- Room # UcIqhKZR_kFL_onAy6_n is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /UcIqhKZR_kFL_onAy6_n room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- UcIqhKZR_kFL_onAy6_n maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- u3FtRx4AIpMy-0YDy6_o maked move from 7 1 to 7 3
+ - Make move called.
+- UcIqhKZR_kFL_onAy6_n maked move from 6 4 to 7 3
+- Make move valid.
+ - Make move called.
+- Make move valid.
+- u3FtRx4AIpMy-0YDy6_o maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- UcIqhKZR_kFL_onAy6_n maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- u3FtRx4AIpMy-0YDy6_o maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- UcIqhKZR_kFL_onAy6_n maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- u3FtRx4AIpMy-0YDy6_o maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- UcIqhKZR_kFL_onAy6_n maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- u3FtRx4AIpMy-0YDy6_o maked move from 5 1 to 5 2
+- Disconnect called by UcIqhKZR_kFL_onAy6_n
+- Next
+- Sockets count in  room = 2
+- Rooms count = 2
+- u3FtRx4AIpMy-0YDy6_o disconnected.
+- Sockets count in /UcIqhKZR_kFL_onAy6_n room = 1
+- Disconnect called by u3FtRx4AIpMy-0YDy6_o
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Qi5MwGkwJlR2GPeOy6_p is connected.
+- Disconnect called by Qi5MwGkwJlR2GPeOy6_p
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- vGyDibcN9sW6zLdKy6_q is connected.
+- Room #vGyDibcN9sW6zLdKy6_q has been created.
+- Sockets count in  room = 1
+- Sockets count in /vGyDibcN9sW6zLdKy6_q room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /vGyDibcN9sW6zLdKy6_q room = 1
+- Rooms count = 2
+- Iw_0MvjUrXs6yQoOy6_r is connected.
+- Room # vGyDibcN9sW6zLdKy6_q is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /vGyDibcN9sW6zLdKy6_q room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- Iw_0MvjUrXs6yQoOy6_r maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- Iw_0MvjUrXs6yQoOy6_r maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- Iw_0MvjUrXs6yQoOy6_r maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- Iw_0MvjUrXs6yQoOy6_r maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- Iw_0MvjUrXs6yQoOy6_r maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- vGyDibcN9sW6zLdKy6_q maked move from 7 0 to 6 0
+- Disconnect called by vGyDibcN9sW6zLdKy6_q
+- Next
+- Sockets count in  room = 2
+- Sockets count in /vGyDibcN9sW6zLdKy6_q room = 1
+- Rooms count = 2
+- Iw_0MvjUrXs6yQoOy6_r disconnected.
+- Disconnect called by Iw_0MvjUrXs6yQoOy6_r
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- QTT2Hdg91N15bavvy6_s is connected.
+- Room #QTT2Hdg91N15bavvy6_s has been created.
+- Sockets count in  room = 1
+- Sockets count in /QTT2Hdg91N15bavvy6_s room = 1
+- Rooms count = 2
+- Disconnect called by QTT2Hdg91N15bavvy6_s
+next
+- Sockets count in  room = 1
+- Sockets count in /QTT2Hdg91N15bavvy6_s room = 1
+- Rooms count = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- Tbzvma0zMX4LLmhry6_t is connected.
+- Room # QTT2Hdg91N15bavvy6_s is full.
+- 0 game started.
+- Sockets count in  room = 1
+- Sockets count in /QTT2Hdg91N15bavvy6_s room = 1
+- Rooms count = 2
+- Disconnect called by Tbzvma0zMX4LLmhry6_t
+- Next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- FI0h-vy6-zywJvFOy6_u is connected.
+- Room #FI0h-vy6-zywJvFOy6_u has been created.
+- Sockets count in  room = 1
+- Sockets count in /FI0h-vy6-zywJvFOy6_u room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /FI0h-vy6-zywJvFOy6_u room = 1
+- Rooms count = 2
+- OxHFi1Dt6jR3UNedy6_v is connected.
+- Room # FI0h-vy6-zywJvFOy6_u is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /FI0h-vy6-zywJvFOy6_u room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- FI0h-vy6-zywJvFOy6_u maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- OxHFi1Dt6jR3UNedy6_v maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- FI0h-vy6-zywJvFOy6_u maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- OxHFi1Dt6jR3UNedy6_v maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- FI0h-vy6-zywJvFOy6_u maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- OxHFi1Dt6jR3UNedy6_v maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- FI0h-vy6-zywJvFOy6_u maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- OxHFi1Dt6jR3UNedy6_v maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- FI0h-vy6-zywJvFOy6_u maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- OxHFi1Dt6jR3UNedy6_v maked move from 5 1 to 5 2
+- Disconnect called by FI0h-vy6-zywJvFOy6_u
+- Next
+- Sockets count in  room = 2
+- Sockets count in /FI0h-vy6-zywJvFOy6_u room = 1
+- Rooms count = 2
+- OxHFi1Dt6jR3UNedy6_v disconnected.
+- Disconnect called by OxHFi1Dt6jR3UNedy6_v
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- wEIUBJBMItK60j2Ny6_w is connected.
+- Room #wEIUBJBMItK60j2Ny6_w has been created.
+- Sockets count in  room = 1
+- Sockets count in /wEIUBJBMItK60j2Ny6_w room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /wEIUBJBMItK60j2Ny6_w room = 1
+- Rooms count = 2
+- zjN-Q1q1Vg67PJuLy6_x is connected.
+- Room # wEIUBJBMItK60j2Ny6_w is full.
+- 0 game started.
+- Sockets count in  room = 2
+- 1 game started.
+- Rooms count = 2
+- Sockets count in /wEIUBJBMItK60j2Ny6_w room = 2
+ - Make move called.
+- Make move valid.
+- wEIUBJBMItK60j2Ny6_w maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- zjN-Q1q1Vg67PJuLy6_x maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- wEIUBJBMItK60j2Ny6_w maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- zjN-Q1q1Vg67PJuLy6_x maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- wEIUBJBMItK60j2Ny6_w maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- zjN-Q1q1Vg67PJuLy6_x maked move from 7 2 to 3 2
+ - Make move called.
+- wEIUBJBMItK60j2Ny6_w maked move from 7 3 to 7 2
+- Make move valid.
+ - Make move called.
+- Make move valid.
+- zjN-Q1q1Vg67PJuLy6_x maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- wEIUBJBMItK60j2Ny6_w maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- zjN-Q1q1Vg67PJuLy6_x maked move from 4 2 to 4 3
+- Disconnect called by wEIUBJBMItK60j2Ny6_w
+- Next
+- Sockets count in  room = 2
+- Rooms count = 2
+- Sockets count in /wEIUBJBMItK60j2Ny6_w room = 1
+- Disconnect called by zjN-Q1q1Vg67PJuLy6_x
+- Sockets count in  room = 2
+- zjN-Q1q1Vg67PJuLy6_x disconnected.
+- Next
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- r0dRdc3ngITFQGTBy6_y is connected.
+- Disconnect called by r0dRdc3ngITFQGTBy6_y
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 7ekmWfWQh5MQ15DEy6_z is connected.
+- Room #7ekmWfWQh5MQ15DEy6_z has been created.
+- Sockets count in  room = 1
+- Sockets count in /7ekmWfWQh5MQ15DEy6_z room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /7ekmWfWQh5MQ15DEy6_z room = 1
+- Rooms count = 2
+- cxMs4MDICrwc-ZJHy6_0 is connected.
+- Room # 7ekmWfWQh5MQ15DEy6_z is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /7ekmWfWQh5MQ15DEy6_z room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 7ekmWfWQh5MQ15DEy6_z maked move from 6 6 to 6 4
+- Disconnect called by 7ekmWfWQh5MQ15DEy6_z
+- Next
+- Sockets count in  room = 2
+- Sockets count in /7ekmWfWQh5MQ15DEy6_z room = 1
+- Rooms count = 2
+- cxMs4MDICrwc-ZJHy6_0 disconnected.
+- Disconnect called by cxMs4MDICrwc-ZJHy6_0
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Next
+- Sockets count in  room = 1
+- Rooms count = 1
+- fKoYqFbYEYLYHxDSy6_1 is connected.
+- Room #fKoYqFbYEYLYHxDSy6_1 has been created.
+- Sockets count in  room = 1
+- Sockets count in /fKoYqFbYEYLYHxDSy6_1 room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /fKoYqFbYEYLYHxDSy6_1 room = 1
+- Rooms count = 2
+- STgXtm0OJB0W0bKHy6_2 is connected.
+- Room # fKoYqFbYEYLYHxDSy6_1 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /fKoYqFbYEYLYHxDSy6_1 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- fKoYqFbYEYLYHxDSy6_1 maked move from 6 6 to 6 4
+- Disconnect called by fKoYqFbYEYLYHxDSy6_1
+- Next
+- Sockets count in  room = 2
+- Sockets count in /fKoYqFbYEYLYHxDSy6_1 room = 1
+- Rooms count = 2
+- STgXtm0OJB0W0bKHy6_2 disconnected.
+- Disconnect called by STgXtm0OJB0W0bKHy6_2
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Next
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- PJ2TQeDHJhTbsE0fy6_3 is connected.
+- Room #PJ2TQeDHJhTbsE0fy6_3 has been created.
+- Sockets count in  room = 1
+- Sockets count in /PJ2TQeDHJhTbsE0fy6_3 room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /PJ2TQeDHJhTbsE0fy6_3 room = 1
+- Rooms count = 2
+- BLBQ9sCrc9HDd-Jyy6_4 is connected.
+- Room # PJ2TQeDHJhTbsE0fy6_3 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /PJ2TQeDHJhTbsE0fy6_3 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- PJ2TQeDHJhTbsE0fy6_3 maked move from 6 6 to 6 4
+- Disconnect called by PJ2TQeDHJhTbsE0fy6_3
+- Next
+- Sockets count in  room = 2
+- Sockets count in /PJ2TQeDHJhTbsE0fy6_3 room = 1
+- Rooms count = 2
+- BLBQ9sCrc9HDd-Jyy6_4 disconnected.
+- Disconnect called by BLBQ9sCrc9HDd-Jyy6_4
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- ls-mRBBCM1vPkVDIy6_5 is connected.
+- Room #ls-mRBBCM1vPkVDIy6_5 has been created.
+- Sockets count in  room = 1
+- Sockets count in /ls-mRBBCM1vPkVDIy6_5 room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /ls-mRBBCM1vPkVDIy6_5 room = 1
+- Rooms count = 2
+- DEa3C6OQfp7yvlg3y6_6 is connected.
+- Room # ls-mRBBCM1vPkVDIy6_5 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /ls-mRBBCM1vPkVDIy6_5 room = 2
+- Rooms count = 2
+- Disconnect called by ls-mRBBCM1vPkVDIy6_5
+- Next
+- Sockets count in  room = 2
+- Sockets count in /ls-mRBBCM1vPkVDIy6_5 room = 1
+- DEa3C6OQfp7yvlg3y6_6 disconnected.
+- Rooms count = 2
+- Disconnect called by DEa3C6OQfp7yvlg3y6_6
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- ENdRrJSXvkvEIIc4y6_7 is connected.
+- Disconnect called by ENdRrJSXvkvEIIc4y6_7
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- lZmMFOATWie7wL__y6_8 is connected.
+- Room #lZmMFOATWie7wL__y6_8 has been created.
+- Rooms count = 2
+- Sockets count in  room = 1
+- Sockets count in /lZmMFOATWie7wL__y6_8 room = 1
+- Sockets count in  room = 2
+- Sockets count in /lZmMFOATWie7wL__y6_8 room = 1
+- Rooms count = 2
+- 80jQQezMXhNB3N26y6_9 is connected.
+- Room # lZmMFOATWie7wL__y6_8 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /lZmMFOATWie7wL__y6_8 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- lZmMFOATWie7wL__y6_8 maked move from 4 6 to 4 5
+- Disconnect called by 80jQQezMXhNB3N26y6_9
+- lZmMFOATWie7wL__y6_8 disconnected.
+- Disconnect called by lZmMFOATWie7wL__y6_8
+- Next
+- Sockets count in /lZmMFOATWie7wL__y6_8 room = 1
+- Rooms count = 2
+- 80jQQezMXhNB3N26y6_9 disconnected.
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 0
+- Next
+- Rooms count = 0
+- Sockets count in  room = 1
+- Rooms count = 1
+- wyeurc_U4ZJAeI_Ry6_- is connected.
+- Room #wyeurc_U4ZJAeI_Ry6_- has been created.
+- Sockets count in  room = 1
+- Sockets count in /wyeurc_U4ZJAeI_Ry6_- room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /wyeurc_U4ZJAeI_Ry6_- room = 1
+- Rooms count = 2
+- 8GHU1CCxF_ckIckqy6__ is connected.
+- Room # wyeurc_U4ZJAeI_Ry6_- is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /wyeurc_U4ZJAeI_Ry6_- room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- wyeurc_U4ZJAeI_Ry6_- maked move from 6 6 to 6 4
+- Disconnect called by 8GHU1CCxF_ckIckqy6__
+- wyeurc_U4ZJAeI_Ry6_- disconnected.
+- Disconnect called by wyeurc_U4ZJAeI_Ry6_-
+- Next
+- Sockets count in  room = 2
+- Sockets count in /wyeurc_U4ZJAeI_Ry6_- room = 1
+- Rooms count = 2
+- 8GHU1CCxF_ckIckqy6__ disconnected.
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 0
+- Next
+- Rooms count = 0
+- Sockets count in  room = 1
+- Rooms count = 1
+- Room #mdqtHgnQi_XNYZzDy7AA has been created.
+- Sockets count in  room = 1
+- Sockets count in /mdqtHgnQi_XNYZzDy7AA room = 1
+- Rooms count = 2
+- mdqtHgnQi_XNYZzDy7AA is connected.
+- Sockets count in  room = 2
+- Sockets count in /mdqtHgnQi_XNYZzDy7AA room = 1
+- 1 game started.
+- zgFdf_7uxFKpFfQcy7AB is connected.
+- Sockets count in /mdqtHgnQi_XNYZzDy7AA room = 2
+- Rooms count = 2
+- Room # mdqtHgnQi_XNYZzDy7AA is full.
+- 0 game started.
+- Sockets count in  room = 2
+- Rooms count = 2
+- Disconnect called by zgFdf_7uxFKpFfQcy7AB
+- mdqtHgnQi_XNYZzDy7AA disconnected.
+- Disconnect called by mdqtHgnQi_XNYZzDy7AA
+- Next
+- Sockets count in  room = 2
+- Sockets count in /mdqtHgnQi_XNYZzDy7AA room = 1
+- Rooms count = 2
+- zgFdf_7uxFKpFfQcy7AB disconnected.
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 0
+- Next
+- Rooms count = 0
+- Sockets count in  room = 1
+- Rooms count = 1
+- mOKgVQuOKxPlMiv3y7AC is connected.
+- Room #mOKgVQuOKxPlMiv3y7AC has been created.
+- Sockets count in  room = 1
+- Sockets count in /mOKgVQuOKxPlMiv3y7AC room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /mOKgVQuOKxPlMiv3y7AC room = 1
+- Rooms count = 2
+- IodZQJN9RmFLk49Ey7AD is connected.
+- Room # mOKgVQuOKxPlMiv3y7AC is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /mOKgVQuOKxPlMiv3y7AC room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- mOKgVQuOKxPlMiv3y7AC maked move from 4 6 to 4 5
+- Disconnect called by mOKgVQuOKxPlMiv3y7AC
+- Next
+- Sockets count in  room = 2
+- Sockets count in /mOKgVQuOKxPlMiv3y7AC room = 1
+- Rooms count = 2
+- IodZQJN9RmFLk49Ey7AD disconnected.
+- Disconnect called by IodZQJN9RmFLk49Ey7AD
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- mHRMqEAV2Owx0n3jy7AE is connected.
+- Room #mHRMqEAV2Owx0n3jy7AE has been created.
+- Sockets count in  room = 1
+- Sockets count in /mHRMqEAV2Owx0n3jy7AE room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /mHRMqEAV2Owx0n3jy7AE room = 1
+- Rooms count = 2
+- FcHLxwkBLJMZLT-oy7AF is connected.
+- Room # mHRMqEAV2Owx0n3jy7AE is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /mHRMqEAV2Owx0n3jy7AE room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- FcHLxwkBLJMZLT-oy7AF maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- FcHLxwkBLJMZLT-oy7AF maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- FcHLxwkBLJMZLT-oy7AF maked move from 7 2 to 4 2
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- FcHLxwkBLJMZLT-oy7AF maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- FcHLxwkBLJMZLT-oy7AF maked move from 5 2 to 5 3
+ - Make move called.
+- Make move valid.
+- mHRMqEAV2Owx0n3jy7AE maked move from 7 0 to 6 0
+- Disconnect called by mHRMqEAV2Owx0n3jy7AE
+- Next
+- Sockets count in  room = 2
+- Sockets count in /mHRMqEAV2Owx0n3jy7AE room = 1
+- Rooms count = 2
+- FcHLxwkBLJMZLT-oy7AF disconnected.
+- Disconnect called by FcHLxwkBLJMZLT-oy7AF
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- dhvd-2Mku1rJMXa5y7AG is connected.
+- Room #dhvd-2Mku1rJMXa5y7AG has been created.
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in /dhvd-2Mku1rJMXa5y7AG room = 1
+- Sockets count in  room = 2
+- Sockets count in /dhvd-2Mku1rJMXa5y7AG room = 1
+- Rooms count = 2
+- v80cWWG7dn6Zu7Rty7AH is connected.
+- Room # dhvd-2Mku1rJMXa5y7AG is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /dhvd-2Mku1rJMXa5y7AG room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- dhvd-2Mku1rJMXa5y7AG maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- v80cWWG7dn6Zu7Rty7AH maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- dhvd-2Mku1rJMXa5y7AG maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- v80cWWG7dn6Zu7Rty7AH maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- dhvd-2Mku1rJMXa5y7AG maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- v80cWWG7dn6Zu7Rty7AH maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- dhvd-2Mku1rJMXa5y7AG maked move from 7 3 to 7 2
+- Make move valid.
+ - Make move called.
+- v80cWWG7dn6Zu7Rty7AH maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- dhvd-2Mku1rJMXa5y7AG maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- v80cWWG7dn6Zu7Rty7AH maked move from 5 1 to 5 2
+- Disconnect called by dhvd-2Mku1rJMXa5y7AG
+- Next
+- Sockets count in  room = 2
+- Sockets count in /dhvd-2Mku1rJMXa5y7AG room = 1
+- Rooms count = 2
+- v80cWWG7dn6Zu7Rty7AH disconnected.
+- Disconnect called by v80cWWG7dn6Zu7Rty7AH
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- U8nlDb0KFZgFtTN_y7AI is connected.
+- Room #U8nlDb0KFZgFtTN_y7AI has been created.
+- Rooms count = 2
+- Sockets count in  room = 1
+- Sockets count in /U8nlDb0KFZgFtTN_y7AI room = 1
+- Sockets count in  room = 2
+- Sockets count in /U8nlDb0KFZgFtTN_y7AI room = 1
+- Rooms count = 2
+- UKWxhdIYFcgJFd7ry7AJ is connected.
+- Room # U8nlDb0KFZgFtTN_y7AI is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /U8nlDb0KFZgFtTN_y7AI room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- U8nlDb0KFZgFtTN_y7AI maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- UKWxhdIYFcgJFd7ry7AJ maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- U8nlDb0KFZgFtTN_y7AI maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- UKWxhdIYFcgJFd7ry7AJ maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- U8nlDb0KFZgFtTN_y7AI maked move from 5 6 to 5 5
+- Make move valid.
+ - Make move called.
+- UKWxhdIYFcgJFd7ry7AJ maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- U8nlDb0KFZgFtTN_y7AI maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- UKWxhdIYFcgJFd7ry7AJ maked move from 4 1 to 4 2
+ - Make move called.
+- U8nlDb0KFZgFtTN_y7AI maked move from 7 2 to 7 1
+- Make move valid.
+ - Make move called.
+- Make move valid.
+- UKWxhdIYFcgJFd7ry7AJ maked move from 4 2 to 4 3
+- Disconnect called by U8nlDb0KFZgFtTN_y7AI
+- Next
+- Sockets count in  room = 2
+- Sockets count in /U8nlDb0KFZgFtTN_y7AI room = 1
+- Rooms count = 2
+- UKWxhdIYFcgJFd7ry7AJ disconnected.
+- Disconnect called by UKWxhdIYFcgJFd7ry7AJ
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 9vFucaGA9d0os8jQy7AK is connected.
+- Disconnect called by 9vFucaGA9d0os8jQy7AK
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- K5Hc5CrUQ7gGXAuwy7AL is connected.
+- Room #K5Hc5CrUQ7gGXAuwy7AL has been created.
+- Sockets count in  room = 1
+- Sockets count in /K5Hc5CrUQ7gGXAuwy7AL room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /K5Hc5CrUQ7gGXAuwy7AL room = 1
+- Rooms count = 2
+- auRkEZxA699t4i95y7AM is connected.
+- Room # K5Hc5CrUQ7gGXAuwy7AL is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /K5Hc5CrUQ7gGXAuwy7AL room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- K5Hc5CrUQ7gGXAuwy7AL maked move from 7 1 to 6 0
+ - Make move called.
+- Make move valid.
+- auRkEZxA699t4i95y7AM maked move from 7 1 to 6 0
+- Disconnect called by K5Hc5CrUQ7gGXAuwy7AL
+- Next
+- Sockets count in  room = 2
+- Sockets count in /K5Hc5CrUQ7gGXAuwy7AL room = 1
+- Rooms count = 2
+- auRkEZxA699t4i95y7AM disconnected.
+- Disconnect called by auRkEZxA699t4i95y7AM
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- RbTk205tXqMFGsFhy7AN is connected.
+- Room #RbTk205tXqMFGsFhy7AN has been created.
+- Sockets count in  room = 1
+- Sockets count in /RbTk205tXqMFGsFhy7AN room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /RbTk205tXqMFGsFhy7AN room = 1
+- Rooms count = 2
+- KEF2S391G7arQWo6y7AO is connected.
+- Room # RbTk205tXqMFGsFhy7AN is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /RbTk205tXqMFGsFhy7AN room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- KEF2S391G7arQWo6y7AO maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- KEF2S391G7arQWo6y7AO maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- KEF2S391G7arQWo6y7AO maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- KEF2S391G7arQWo6y7AO maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- KEF2S391G7arQWo6y7AO maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- RbTk205tXqMFGsFhy7AN maked move from 7 1 to 7 0
+- Disconnect called by RbTk205tXqMFGsFhy7AN
+- Next
+- Sockets count in  room = 2
+- Sockets count in /RbTk205tXqMFGsFhy7AN room = 1
+- Rooms count = 2
+- KEF2S391G7arQWo6y7AO disconnected.
+- Disconnect called by KEF2S391G7arQWo6y7AO
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 6KkJujUzLS5wWNKpy7AP is connected.
+- Room #6KkJujUzLS5wWNKpy7AP has been created.
+- Sockets count in  room = 1
+- Sockets count in /6KkJujUzLS5wWNKpy7AP room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /6KkJujUzLS5wWNKpy7AP room = 1
+- Rooms count = 2
+- UaofAkx4qIZAhq7Vy7AQ is connected.
+- Room # 6KkJujUzLS5wWNKpy7AP is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /6KkJujUzLS5wWNKpy7AP room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- UaofAkx4qIZAhq7Vy7AQ maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 6 4 to 7 3
+- Make move valid.
+ - Make move called.
+- UaofAkx4qIZAhq7Vy7AQ maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- UaofAkx4qIZAhq7Vy7AQ maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 7 3 to 7 2
+- Make move valid.
+ - Make move called.
+- UaofAkx4qIZAhq7Vy7AQ maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- UaofAkx4qIZAhq7Vy7AQ maked move from 5 1 to 5 2
+- Make move valid.
+- 6KkJujUzLS5wWNKpy7AP maked move from 7 1 to 7 0
+ - Make move called.
+- Disconnect called by 6KkJujUzLS5wWNKpy7AP
+- Next
+- Sockets count in  room = 2
+- Sockets count in /6KkJujUzLS5wWNKpy7AP room = 1
+- Rooms count = 2
+- UaofAkx4qIZAhq7Vy7AQ disconnected.
+- Disconnect called by UaofAkx4qIZAhq7Vy7AQ
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- pOTzhdlR9KzsPNmPy7AR is connected.
+- Room #pOTzhdlR9KzsPNmPy7AR has been created.
+- Sockets count in  room = 1
+- Sockets count in /pOTzhdlR9KzsPNmPy7AR room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /pOTzhdlR9KzsPNmPy7AR room = 1
+- Rooms count = 2
+- 5qBDoR6Kef3gSHXyy7AS is connected.
+- Room # pOTzhdlR9KzsPNmPy7AR is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /pOTzhdlR9KzsPNmPy7AR room = 2
+- Rooms count = 2
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 6 6 to 6 4
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 5qBDoR6Kef3gSHXyy7AS maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 5qBDoR6Kef3gSHXyy7AS maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 5qBDoR6Kef3gSHXyy7AS maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 5qBDoR6Kef3gSHXyy7AS maked move from 4 1 to 4 2
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 5qBDoR6Kef3gSHXyy7AS maked move from 5 1 to 5 2
+- Make move valid.
+- pOTzhdlR9KzsPNmPy7AR maked move from 7 1 to 7 0
+ - Make move called.
+- Disconnect called by pOTzhdlR9KzsPNmPy7AR
+- Next
+- Sockets count in  room = 2
+- Sockets count in /pOTzhdlR9KzsPNmPy7AR room = 1
+- Rooms count = 2
+- 5qBDoR6Kef3gSHXyy7AS disconnected.
+- Disconnect called by 5qBDoR6Kef3gSHXyy7AS
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- d88Z5I-AL1WWZnr-y7AT is connected.
+- Room #d88Z5I-AL1WWZnr-y7AT has been created.
+- Sockets count in  room = 1
+- Sockets count in /d88Z5I-AL1WWZnr-y7AT room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /d88Z5I-AL1WWZnr-y7AT room = 1
+- Rooms count = 2
+- V2kxnFQExT4j_M1Dy7AU is connected.
+- Room # d88Z5I-AL1WWZnr-y7AT is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /d88Z5I-AL1WWZnr-y7AT room = 2
+- Rooms count = 2
+- Next
+- Sockets count in  room = 2
+- Sockets count in /d88Z5I-AL1WWZnr-y7AT room = 1
+- Rooms count = 2
+- V2kxnFQExT4j_M1Dy7AU disconnected.
+- Disconnect called by d88Z5I-AL1WWZnr-y7AT
+- Disconnect called by V2kxnFQExT4j_M1Dy7AU
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Room #U9zxuCjZVEYmm24ey7AV has been created.
+- U9zxuCjZVEYmm24ey7AV is connected.
+- Sockets count in /U9zxuCjZVEYmm24ey7AV room = 1
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Rooms count = 2
+- nUbsKlUkxzw_N_0Zy7AW is connected.
+- Room # U9zxuCjZVEYmm24ey7AV is full.
+- Sockets count in /U9zxuCjZVEYmm24ey7AV room = 1
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /U9zxuCjZVEYmm24ey7AV room = 2
+- Rooms count = 2
+- Disconnect called by U9zxuCjZVEYmm24ey7AV
+- Next
+- Sockets count in  room = 2
+- Sockets count in /U9zxuCjZVEYmm24ey7AV room = 1
+- Rooms count = 2
+- nUbsKlUkxzw_N_0Zy7AW disconnected.
+- Disconnect called by nUbsKlUkxzw_N_0Zy7AW
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 8AJwSXX1unmVyP0Ky7AX is connected.
+- Room #8AJwSXX1unmVyP0Ky7AX has been created.
+- Sockets count in /8AJwSXX1unmVyP0Ky7AX room = 1
+- Rooms count = 2
+- Sockets count in  room = 1
+- Sockets count in  room = 2
+- Sockets count in /8AJwSXX1unmVyP0Ky7AX room = 1
+- Rooms count = 2
+- Room # 8AJwSXX1unmVyP0Ky7AX is full.
+- 2RT8XgMVG1uN0pOoy7AY is connected.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /8AJwSXX1unmVyP0Ky7AX room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 7 0 to 7 2
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 5 6 to 5 5
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 7 2 to 4 2
+ - Make move called.
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 5 2 to 5 3
+ - Make move called.
+- Make move valid.
+- 8AJwSXX1unmVyP0Ky7AX maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- 2RT8XgMVG1uN0pOoy7AY maked move from 7 1 to 7 0
+- Disconnect called by 8AJwSXX1unmVyP0Ky7AX
+- Next
+- Sockets count in  room = 2
+- Sockets count in /8AJwSXX1unmVyP0Ky7AX room = 1
+- Rooms count = 2
+- 2RT8XgMVG1uN0pOoy7AY disconnected.
+- Next
+- Disconnect called by 2RT8XgMVG1uN0pOoy7AY
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- 0Ov9RC9NJgFXLCrsy7Aa is connected.
+- Room #0Ov9RC9NJgFXLCrsy7Aa has been created.
+- Sockets count in  room = 1
+- Sockets count in /0Ov9RC9NJgFXLCrsy7Aa room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /0Ov9RC9NJgFXLCrsy7Aa room = 1
+- Rooms count = 2
+- E3rLBLDa40lcIASTy7Ab is connected.
+- Room # 0Ov9RC9NJgFXLCrsy7Aa is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /0Ov9RC9NJgFXLCrsy7Aa room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 6 6 to 6 4
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 7 1 to 7 3
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- 0Ov9RC9NJgFXLCrsy7Aa maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- E3rLBLDa40lcIASTy7Ab maked move from 7 1 to 7 0
+- Disconnect called by 0Ov9RC9NJgFXLCrsy7Aa
+- Sockets count in  room = 2
+- Next
+- Sockets count in /0Ov9RC9NJgFXLCrsy7Aa room = 1
+- Rooms count = 2
+- E3rLBLDa40lcIASTy7Ab disconnected.
+- Disconnect called by E3rLBLDa40lcIASTy7Ab
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- YOQr0jpjdVuRkPGDy7Ac is connected.
+- Disconnect called by YOQr0jpjdVuRkPGDy7Ac
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- ULtp9N4kyIjS4U9Hy7Ad is connected.
+- Rooms count = 1
+- Disconnect called by ULtp9N4kyIjS4U9Hy7Ad
+next
+- Rooms count = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- gEAH8d9pEGd9s6Zvy7Ae is connected.
+- Room #gEAH8d9pEGd9s6Zvy7Ae has been created.
+- Sockets count in  room = 1
+- Sockets count in /gEAH8d9pEGd9s6Zvy7Ae room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /gEAH8d9pEGd9s6Zvy7Ae room = 1
+- Rooms count = 2
+- Xu_fzBhh94p8pZKWy7Af is connected.
+- Room # gEAH8d9pEGd9s6Zvy7Ae is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /gEAH8d9pEGd9s6Zvy7Ae room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 7 3 to 7 2
+- Make move valid.
+ - Make move called.
+- Xu_fzBhh94p8pZKWy7Af maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- gEAH8d9pEGd9s6Zvy7Ae maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- Xu_fzBhh94p8pZKWy7Af maked move from 7 0 to 6 0
+- Disconnect called by gEAH8d9pEGd9s6Zvy7Ae
+- Next
+- Sockets count in  room = 2
+- Sockets count in /gEAH8d9pEGd9s6Zvy7Ae room = 1
+- Rooms count = 2
+- Xu_fzBhh94p8pZKWy7Af disconnected.
+- Disconnect called by Xu_fzBhh94p8pZKWy7Af
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- ivHXypsvwZW_YYJKy7Ag is connected.
+- Room #ivHXypsvwZW_YYJKy7Ag has been created.
+- Sockets count in  room = 1
+- Sockets count in /ivHXypsvwZW_YYJKy7Ag room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /ivHXypsvwZW_YYJKy7Ag room = 1
+- Rooms count = 2
+- oD2OD1pxvar6NJGXy7Ah is connected.
+- Room # ivHXypsvwZW_YYJKy7Ag is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /ivHXypsvwZW_YYJKy7Ag room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 5 2 to 5 3
+ - Make move called.
+- Make move valid.
+- ivHXypsvwZW_YYJKy7Ag maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- oD2OD1pxvar6NJGXy7Ah maked move from 7 1 to 7 0
+- Disconnect called by ivHXypsvwZW_YYJKy7Ag
+- Next
+- Sockets count in  room = 2
+- Rooms count = 2
+- Sockets count in /ivHXypsvwZW_YYJKy7Ag room = 1
+- oD2OD1pxvar6NJGXy7Ah disconnected.
+- Next
+- Disconnect called by oD2OD1pxvar6NJGXy7Ah
+- Rooms count = 1
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- KsyQ5IkxaI9c3gudy7Ai is connected.
+- Disconnect called by KsyQ5IkxaI9c3gudy7Ai
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- x53H6NJeejaUWKYDy7Aj is connected.
+- Room #x53H6NJeejaUWKYDy7Aj has been created.
+- Sockets count in  room = 1
+- Sockets count in /x53H6NJeejaUWKYDy7Aj room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /x53H6NJeejaUWKYDy7Aj room = 1
+- Rooms count = 2
+- 7wLNpF7j3eIYxu0Oy7Ak is connected.
+- Room # x53H6NJeejaUWKYDy7Aj is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /x53H6NJeejaUWKYDy7Aj room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 6 to 7 4
+- Make move valid.
+ - Make move called.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 3 to 6 4
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 6 4 to 5 5
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 4 1 to 4 2
+- Make move valid.
+ - Make move called.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- x53H6NJeejaUWKYDy7Aj maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- 7wLNpF7j3eIYxu0Oy7Ak maked move from 7 0 to 6 0
+- Disconnect called by x53H6NJeejaUWKYDy7Aj
+- Next
+- Sockets count in  room = 2
+- Sockets count in /x53H6NJeejaUWKYDy7Aj room = 1
+- Rooms count = 2
+- 7wLNpF7j3eIYxu0Oy7Ak disconnected.
+- Disconnect called by 7wLNpF7j3eIYxu0Oy7Ak
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- feNllnpGd1xPAkk0y7Al is connected.
+- Room #feNllnpGd1xPAkk0y7Al has been created.
+- Sockets count in  room = 1
+- Sockets count in /feNllnpGd1xPAkk0y7Al room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /feNllnpGd1xPAkk0y7Al room = 1
+- Rooms count = 2
+- aRn9msx6U7ahJaZuy7Am is connected.
+- Room # feNllnpGd1xPAkk0y7Al is full.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /feNllnpGd1xPAkk0y7Al room = 2
+- Rooms count = 2
+- 0 game started.
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- aRn9msx6U7ahJaZuy7Am maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- aRn9msx6U7ahJaZuy7Am maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- aRn9msx6U7ahJaZuy7Am maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- aRn9msx6U7ahJaZuy7Am maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- aRn9msx6U7ahJaZuy7Am maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- feNllnpGd1xPAkk0y7Al maked move from 7 1 to 7 0
+- Disconnect called by feNllnpGd1xPAkk0y7Al
+- Next
+- Sockets count in /feNllnpGd1xPAkk0y7Al room = 1
+- Rooms count = 1
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- aRn9msx6U7ahJaZuy7Am disconnected.
+- Disconnect called by aRn9msx6U7ahJaZuy7Am
+- Rooms count = 1
+- Next
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- 2aiHjHcENKMdHGvBy7An is connected.
+- Disconnect called by 2aiHjHcENKMdHGvBy7An
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- Room #fA_1t0UKp8SqakHpy7Ao has been created.
+- fA_1t0UKp8SqakHpy7Ao is connected.
+- Sockets count in /fA_1t0UKp8SqakHpy7Ao room = 1
+- Rooms count = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /fA_1t0UKp8SqakHpy7Ao room = 1
+- Rooms count = 2
+- FQ2ZdjuFAqShmnjvy7Ap is connected.
+- Room # fA_1t0UKp8SqakHpy7Ao is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /fA_1t0UKp8SqakHpy7Ao room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 7 0 to 7 1
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 4 6 to 4 5
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 7 1 to 7 2
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- fA_1t0UKp8SqakHpy7Ao maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- FQ2ZdjuFAqShmnjvy7Ap maked move from 7 0 to 6 0
+- Disconnect called by fA_1t0UKp8SqakHpy7Ao
+- Next
+- Sockets count in  room = 2
+- Sockets count in /fA_1t0UKp8SqakHpy7Ao room = 1
+- Rooms count = 2
+- FQ2ZdjuFAqShmnjvy7Ap disconnected.
+- Disconnect called by FQ2ZdjuFAqShmnjvy7Ap
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- EIMjXyAYduchfBPjy7Aq is connected.
+- Room #EIMjXyAYduchfBPjy7Aq has been created.
+- Sockets count in  room = 1
+- Sockets count in /EIMjXyAYduchfBPjy7Aq room = 1
+- Rooms count = 2
+- Sockets count in /EIMjXyAYduchfBPjy7Aq room = 1
+- Rooms count = 2
+- gXlMqOGz4wFx4GZ-y7Ar is connected.
+- Room # EIMjXyAYduchfBPjy7Aq is full.
+- Sockets count in  room = 2
+- 0 game started.
+- 1 game started.
+- Sockets count in /EIMjXyAYduchfBPjy7Aq room = 2
+- Rooms count = 2
+- Sockets count in  room = 2
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- gXlMqOGz4wFx4GZ-y7Ar maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- gXlMqOGz4wFx4GZ-y7Ar maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- gXlMqOGz4wFx4GZ-y7Ar maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- gXlMqOGz4wFx4GZ-y7Ar maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- gXlMqOGz4wFx4GZ-y7Ar maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- EIMjXyAYduchfBPjy7Aq maked move from 7 1 to 7 0
+- Disconnect called by EIMjXyAYduchfBPjy7Aq
+- Next
+- Sockets count in /EIMjXyAYduchfBPjy7Aq room = 1
+- Rooms count = 2
+- gXlMqOGz4wFx4GZ-y7Ar disconnected.
+- Sockets count in  room = 2
+- Sockets count in  room = 2
+- Disconnect called by gXlMqOGz4wFx4GZ-y7Ar
+- Rooms count = 1
+- Next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- JmqRInGVEj8TOzLny7As is connected.
+- Rooms count = 1
+- Disconnect called by JmqRInGVEj8TOzLny7As
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 2-tIZdxXoY5rADLDy7At is connected.
+- Room #2-tIZdxXoY5rADLDy7At has been created.
+- Sockets count in  room = 1
+- Sockets count in /2-tIZdxXoY5rADLDy7At room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /2-tIZdxXoY5rADLDy7At room = 1
+- Rooms count = 2
+- 1KmAE7_L8ca5aWzWy7Au is connected.
+- Room # 2-tIZdxXoY5rADLDy7At is full.
+- Sockets count in  room = 2
+- 1 game started.
+- 0 game started.
+- Rooms count = 2
+- Sockets count in /2-tIZdxXoY5rADLDy7At room = 2
+ - Make move called.
+- Make move valid.
+- 2-tIZdxXoY5rADLDy7At maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- 1KmAE7_L8ca5aWzWy7Au maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 2-tIZdxXoY5rADLDy7At maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 1KmAE7_L8ca5aWzWy7Au maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 2-tIZdxXoY5rADLDy7At maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 1KmAE7_L8ca5aWzWy7Au maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- 2-tIZdxXoY5rADLDy7At maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 1KmAE7_L8ca5aWzWy7Au maked move from 3 1 to 3 2
+- 2-tIZdxXoY5rADLDy7At maked move from 7 2 to 7 1
+- Make move valid.
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- 1KmAE7_L8ca5aWzWy7Au maked move from 4 1 to 4 2
+- Make move valid.
+ - Make move called.
+- 2-tIZdxXoY5rADLDy7At maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- 2-tIZdxXoY5rADLDy7At maked move from 7 0 to 6 0
+- Next
+- Sockets count in  room = 2
+- Sockets count in /2-tIZdxXoY5rADLDy7At room = 1
+- 1KmAE7_L8ca5aWzWy7Au disconnected.
+- Rooms count = 2
+- Disconnect called by 2-tIZdxXoY5rADLDy7At
+- Disconnect called by 1KmAE7_L8ca5aWzWy7Au
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 1
+- OyG0Tz2AixbyP8Sty7Av is connected.
+- Room #OyG0Tz2AixbyP8Sty7Av has been created.
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- Sockets count in /OyG0Tz2AixbyP8Sty7Av room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /OyG0Tz2AixbyP8Sty7Av room = 1
+- Rooms count = 2
+- Room # OyG0Tz2AixbyP8Sty7Av is full.
+- nCb3rqn8bLJLo6zZy7Aw is connected.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /OyG0Tz2AixbyP8Sty7Av room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- nCb3rqn8bLJLo6zZy7Aw maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- nCb3rqn8bLJLo6zZy7Aw maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- nCb3rqn8bLJLo6zZy7Aw maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- nCb3rqn8bLJLo6zZy7Aw maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- nCb3rqn8bLJLo6zZy7Aw maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- OyG0Tz2AixbyP8Sty7Av maked move from 7 1 to 7 0
+- Disconnect called by OyG0Tz2AixbyP8Sty7Av
+- Sockets count in /OyG0Tz2AixbyP8Sty7Av room = 1
+- Next
+- Sockets count in  room = 2
+- nCb3rqn8bLJLo6zZy7Aw disconnected.
+- Rooms count = 2
+- Disconnect called by nCb3rqn8bLJLo6zZy7Aw
+- Sockets count in  room = 2
+- Rooms count = 1
+- Next
+- Rooms count = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- zZQiyA26Uu3qOJdVy7Ax is connected.
+- Rooms count = 1
+- Disconnect called by zZQiyA26Uu3qOJdVy7Ax
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Om9Wph0YNF0wN2Uwy7Ay is connected.
+- Room #Om9Wph0YNF0wN2Uwy7Ay has been created.
+- Sockets count in  room = 1
+- Sockets count in /Om9Wph0YNF0wN2Uwy7Ay room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Rooms count = 2
+- H5ipE5iJzs_pIA55y7Az is connected.
+- Room # Om9Wph0YNF0wN2Uwy7Ay is full.
+- Sockets count in /Om9Wph0YNF0wN2Uwy7Ay room = 1
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /Om9Wph0YNF0wN2Uwy7Ay room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- H5ipE5iJzs_pIA55y7Az maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- H5ipE5iJzs_pIA55y7Az maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- H5ipE5iJzs_pIA55y7Az maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- H5ipE5iJzs_pIA55y7Az maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- H5ipE5iJzs_pIA55y7Az maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- Om9Wph0YNF0wN2Uwy7Ay maked move from 7 1 to 7 0
+- Disconnect called by Om9Wph0YNF0wN2Uwy7Ay
+- Next
+- Sockets count in  room = 2
+- Sockets count in /Om9Wph0YNF0wN2Uwy7Ay room = 1
+- Rooms count = 2
+- H5ipE5iJzs_pIA55y7Az disconnected.
+- Disconnect called by H5ipE5iJzs_pIA55y7Az
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- YD_ChjJwypwOtBxCy7A0 is connected.
+- Room #YD_ChjJwypwOtBxCy7A0 has been created.
+- Sockets count in  room = 1
+- Sockets count in /YD_ChjJwypwOtBxCy7A0 room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /YD_ChjJwypwOtBxCy7A0 room = 1
+- Rooms count = 2
+- YyPivULQhCp4h60Xy7A1 is connected.
+- Room # YD_ChjJwypwOtBxCy7A0 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /YD_ChjJwypwOtBxCy7A0 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 6 6 to 6 4
+- Make move valid.
+- YyPivULQhCp4h60Xy7A1 maked move from 7 1 to 7 3
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- YyPivULQhCp4h60Xy7A1 maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- YyPivULQhCp4h60Xy7A1 maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- YyPivULQhCp4h60Xy7A1 maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- YyPivULQhCp4h60Xy7A1 maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- YD_ChjJwypwOtBxCy7A0 maked move from 7 0 to 6 0
+- Disconnect called by YD_ChjJwypwOtBxCy7A0
+- Next
+- Sockets count in  room = 2
+- Sockets count in /YD_ChjJwypwOtBxCy7A0 room = 1
+- Rooms count = 2
+- YyPivULQhCp4h60Xy7A1 disconnected.
+- Disconnect called by YyPivULQhCp4h60Xy7A1
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- x2Qk3l5aN6Gy7J0Jy7A2 is connected.
+- Room #x2Qk3l5aN6Gy7J0Jy7A2 has been created.
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in /x2Qk3l5aN6Gy7J0Jy7A2 room = 1
+- Sockets count in  room = 2
+- Rooms count = 2
+- LK44ZJnrqyt8Bh02y7A3 is connected.
+- Room # x2Qk3l5aN6Gy7J0Jy7A2 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /x2Qk3l5aN6Gy7J0Jy7A2 room = 2
+- Rooms count = 2
+- Sockets count in /x2Qk3l5aN6Gy7J0Jy7A2 room = 1
+ - Make move called.
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- LK44ZJnrqyt8Bh02y7A3 maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- LK44ZJnrqyt8Bh02y7A3 maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- LK44ZJnrqyt8Bh02y7A3 maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- LK44ZJnrqyt8Bh02y7A3 maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- LK44ZJnrqyt8Bh02y7A3 maked move from 5 1 to 5 2
+- Make move valid.
+- x2Qk3l5aN6Gy7J0Jy7A2 maked move from 7 1 to 7 0
+ - Make move called.
+- Disconnect called by x2Qk3l5aN6Gy7J0Jy7A2
+- Sockets count in  room = 2
+- Next
+- Sockets count in /x2Qk3l5aN6Gy7J0Jy7A2 room = 1
+- LK44ZJnrqyt8Bh02y7A3 disconnected.
+- Rooms count = 2
+- Disconnect called by LK44ZJnrqyt8Bh02y7A3
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- _yaJyAz0CDsWi2mMy7A4 is connected.
+- Disconnect called by _yaJyAz0CDsWi2mMy7A4
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- xsScjKba3STpYxKxy7A5 is connected.
+- Room #xsScjKba3STpYxKxy7A5 has been created.
+- Sockets count in  room = 1
+- Sockets count in /xsScjKba3STpYxKxy7A5 room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /xsScjKba3STpYxKxy7A5 room = 1
+- Rooms count = 2
+- YS-x0H4qwc_z33Yvy7A6 is connected.
+- Room # xsScjKba3STpYxKxy7A5 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /xsScjKba3STpYxKxy7A5 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 7 1 to 7 0
+- Make move valid.
+- xsScjKba3STpYxKxy7A5 maked move from 7 0 to 6 0
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- YS-x0H4qwc_z33Yvy7A6 maked move from 6 1 to 6 2
+- Disconnect called by xsScjKba3STpYxKxy7A5
+- Next
+- Sockets count in  room = 2
+- Sockets count in /xsScjKba3STpYxKxy7A5 room = 1
+- Rooms count = 2
+- YS-x0H4qwc_z33Yvy7A6 disconnected.
+- Disconnect called by YS-x0H4qwc_z33Yvy7A6
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- HTUfphej4WALRKR2y7A7 is connected.
+- Room #HTUfphej4WALRKR2y7A7 has been created.
+- Sockets count in  room = 1
+- Rooms count = 2
+- Sockets count in /HTUfphej4WALRKR2y7A7 room = 1
+- Sockets count in  room = 2
+- Sockets count in /HTUfphej4WALRKR2y7A7 room = 1
+- Rooms count = 2
+- Room # HTUfphej4WALRKR2y7A7 is full.
+- we67zcHIv6MHSX7Dy7A8 is connected.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /HTUfphej4WALRKR2y7A7 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- we67zcHIv6MHSX7Dy7A8 maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 6 4 to 7 3
+- Make move valid.
+ - Make move called.
+- we67zcHIv6MHSX7Dy7A8 maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- we67zcHIv6MHSX7Dy7A8 maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- we67zcHIv6MHSX7Dy7A8 maked move from 4 1 to 4 2
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- we67zcHIv6MHSX7Dy7A8 maked move from 5 1 to 5 2
+- Make move valid.
+ - Make move called.
+- HTUfphej4WALRKR2y7A7 maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- HTUfphej4WALRKR2y7A7 maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- we67zcHIv6MHSX7Dy7A8 maked move from 6 1 to 6 2
+- Disconnect called by HTUfphej4WALRKR2y7A7
+- Next
+- Sockets count in  room = 2
+- Sockets count in /HTUfphej4WALRKR2y7A7 room = 1
+- Rooms count = 2
+- we67zcHIv6MHSX7Dy7A8 disconnected.
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Disconnect called by we67zcHIv6MHSX7Dy7A8
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- MVb527MtyOdg24p_y7A9 is connected.
+- Room #MVb527MtyOdg24p_y7A9 has been created.
+- Sockets count in /MVb527MtyOdg24p_y7A9 room = 1
+- Rooms count = 2
+- Sockets count in  room = 1
+- Sockets count in  room = 2
+- Sockets count in /MVb527MtyOdg24p_y7A9 room = 1
+- Rooms count = 2
+- zWstnSWNz0tgN0fHy7A- is connected.
+- Room # MVb527MtyOdg24p_y7A9 is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /MVb527MtyOdg24p_y7A9 room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- MVb527MtyOdg24p_y7A9 maked move from 7 6 to 7 4
+- Next
+- Sockets count in  room = 2
+- Sockets count in /MVb527MtyOdg24p_y7A9 room = 1
+- Rooms count = 2
+- zWstnSWNz0tgN0fHy7A- disconnected.
+- Disconnect called by MVb527MtyOdg24p_y7A9
+- Disconnect called by zWstnSWNz0tgN0fHy7A-
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- SgoiNrPipBeE0WRhy7A_ is connected.
+- Room #SgoiNrPipBeE0WRhy7A_ has been created.
+- Sockets count in  room = 1
+- Sockets count in /SgoiNrPipBeE0WRhy7A_ room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /SgoiNrPipBeE0WRhy7A_ room = 1
+- Rooms count = 2
+- GgpjQBEwGK0XvZbIy7BA is connected.
+- Room # SgoiNrPipBeE0WRhy7A_ is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /SgoiNrPipBeE0WRhy7A_ room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- GgpjQBEwGK0XvZbIy7BA maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- GgpjQBEwGK0XvZbIy7BA maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- GgpjQBEwGK0XvZbIy7BA maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- GgpjQBEwGK0XvZbIy7BA maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- GgpjQBEwGK0XvZbIy7BA maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- SgoiNrPipBeE0WRhy7A_ maked move from 7 0 to 6 0
+- Disconnect called by SgoiNrPipBeE0WRhy7A_
+- Next
+- Sockets count in  room = 2
+- Sockets count in /SgoiNrPipBeE0WRhy7A_ room = 1
+- GgpjQBEwGK0XvZbIy7BA disconnected.
+- Rooms count = 2
+- Disconnect called by GgpjQBEwGK0XvZbIy7BA
+- Sockets count in  room = 2
+- Next
+- Rooms count = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 6ewAqS8DPamn1Alwy7BB is connected.
+- Room #6ewAqS8DPamn1Alwy7BB has been created.
+- Rooms count = 2
+- Sockets count in /6ewAqS8DPamn1Alwy7BB room = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 2
+- Sockets count in /6ewAqS8DPamn1Alwy7BB room = 1
+- Rooms count = 2
+- I0_KVegyMsi1cJHHy7BC is connected.
+- Room # 6ewAqS8DPamn1Alwy7BB is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /6ewAqS8DPamn1Alwy7BB room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 7 2 to 2 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 3 1 to 3 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- I0_KVegyMsi1cJHHy7BC maked move from 6 1 to 6 2
+ - Make move called.
+- Make move valid.
+- 6ewAqS8DPamn1Alwy7BB maked move from 5 5 to 5 4
+- Disconnect called by 6ewAqS8DPamn1Alwy7BB
+- Next
+- Sockets count in  room = 2
+- Sockets count in /6ewAqS8DPamn1Alwy7BB room = 1
+- Rooms count = 2
+- I0_KVegyMsi1cJHHy7BC disconnected.
+- Disconnect called by I0_KVegyMsi1cJHHy7BC
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- -_L7pKss5M5levcwy7BD is connected.
+- Room #-_L7pKss5M5levcwy7BD has been created.
+- Sockets count in /-_L7pKss5M5levcwy7BD room = 1
+- Rooms count = 2
+- Sockets count in  room = 1
+- Disconnect called by -_L7pKss5M5levcwy7BD
+next
+- Sockets count in  room = 1
+- Sockets count in /-_L7pKss5M5levcwy7BD room = 1
+- Rooms count = 2
+- JUMXbIRgptW09Exjy7BE is connected.
+- Rooms count = 1
+- Sockets count in  room = 1
+- Sockets count in  room = 1
+- Room # -_L7pKss5M5levcwy7BD is full.
+- Sockets count in /-_L7pKss5M5levcwy7BD room = 1
+- Rooms count = 2
+- 0 game started.
+- Disconnect called by JUMXbIRgptW09Exjy7BE
+- Next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- tp5pfwJiDBtShOcjy7BF is connected.
+- Room #tp5pfwJiDBtShOcjy7BF has been created.
+- Sockets count in  room = 1
+- Sockets count in /tp5pfwJiDBtShOcjy7BF room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /tp5pfwJiDBtShOcjy7BF room = 1
+- Rooms count = 2
+- I_i3S7D3nb1Qcbk_y7BG is connected.
+- Room # tp5pfwJiDBtShOcjy7BF is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in /tp5pfwJiDBtShOcjy7BF room = 2
+- Rooms count = 2
+- Sockets count in  room = 2
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- I_i3S7D3nb1Qcbk_y7BG maked move from 3 2 to 3 6
+ - Make move called.
+- Make move valid.
+- tp5pfwJiDBtShOcjy7BF maked move from 5 5 to 5 4
+- tp5pfwJiDBtShOcjy7BF disconnected.
+- Disconnect called by I_i3S7D3nb1Qcbk_y7BG
+- Disconnect called by tp5pfwJiDBtShOcjy7BF
+- Next
+- Sockets count in /tp5pfwJiDBtShOcjy7BF room = 1
+- Rooms count = 2
+- I_i3S7D3nb1Qcbk_y7BG disconnected.
+- Sockets count in  room = 2
+- Sockets count in  room = 1
+- Rooms count = 1
+- Next
+- Rooms count = 0
+- Rooms count = 0
+- Sockets count in  room = 1
+- Rooms count = 1
+- qV3qpNRoRGSzJxb_y7BH is connected.
+- Disconnect called by qV3qpNRoRGSzJxb_y7BH
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- dsyY_ccSKTsdKCGIy7BI is connected.
+- Room #dsyY_ccSKTsdKCGIy7BI has been created.
+- Sockets count in  room = 1
+- Sockets count in /dsyY_ccSKTsdKCGIy7BI room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /dsyY_ccSKTsdKCGIy7BI room = 1
+- Rooms count = 2
+- t-rzqhqA652gBLc6y7BJ is connected.
+- Room # dsyY_ccSKTsdKCGIy7BI is full.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /dsyY_ccSKTsdKCGIy7BI room = 2
+- 0 game started.
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 7 2 to 3 2
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 7 3 to 7 2
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 3 2 to 3 6
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- dsyY_ccSKTsdKCGIy7BI maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- t-rzqhqA652gBLc6y7BJ maked move from 4 2 to 4 3
+- Disconnect called by dsyY_ccSKTsdKCGIy7BI
+- Next
+- Sockets count in  room = 2
+- Sockets count in /dsyY_ccSKTsdKCGIy7BI room = 1
+- Rooms count = 2
+- t-rzqhqA652gBLc6y7BJ disconnected.
+- Disconnect called by t-rzqhqA652gBLc6y7BJ
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- eL5aFgVZNN9ITKQyy7BK is connected.
+- Rooms count = 1
+- Room #eL5aFgVZNN9ITKQyy7BK has been created.
+- Sockets count in  room = 1
+- Sockets count in /eL5aFgVZNN9ITKQyy7BK room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /eL5aFgVZNN9ITKQyy7BK room = 1
+- 1 game started.
+- Sockets count in  room = 2
+- 8kwngmqD4syyvhlvy7BL is connected.
+- Room # eL5aFgVZNN9ITKQyy7BK is full.
+- Rooms count = 2
+- Sockets count in /eL5aFgVZNN9ITKQyy7BK room = 2
+- Rooms count = 2
+- 0 game started.
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 3 2 to 3 6
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- eL5aFgVZNN9ITKQyy7BK maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- 8kwngmqD4syyvhlvy7BL maked move from 5 1 to 5 2
+- Disconnect called by 8kwngmqD4syyvhlvy7BL
+- eL5aFgVZNN9ITKQyy7BK disconnected.
+- Disconnect called by eL5aFgVZNN9ITKQyy7BK
+- Next
+- Sockets count in  room = 2
+- Sockets count in /eL5aFgVZNN9ITKQyy7BK room = 1
+- Rooms count = 2
+- 8kwngmqD4syyvhlvy7BL disconnected.
+- Sockets count in  room = 1
+- Rooms count = 1
+- Rooms count = 0
+- Next
+- Rooms count = 0
+- Sockets count in  room = 1
+- gocmgKB52ho-DY0Ly7BM is connected.
+- Rooms count = 1
+- Disconnect called by gocmgKB52ho-DY0Ly7BM
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- 2b7CTbBCdzFZiie-y7BN is connected.
+- Room #2b7CTbBCdzFZiie-y7BN has been created.
+- Sockets count in  room = 1
+- Sockets count in /2b7CTbBCdzFZiie-y7BN room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /2b7CTbBCdzFZiie-y7BN room = 1
+- Rooms count = 2
+- g20rU06TFriZ_a8Wy7BO is connected.
+- Room # 2b7CTbBCdzFZiie-y7BN is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /2b7CTbBCdzFZiie-y7BN room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 4 1 to 4 2
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 7 2 to 7 1
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 3 2 to 3 6
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 7 0 to 6 0
+ - Make move called.
+- Make move valid.
+- g20rU06TFriZ_a8Wy7BO maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- 2b7CTbBCdzFZiie-y7BN maked move from 5 5 to 5 4
+- Disconnect called by 2b7CTbBCdzFZiie-y7BN
+- Next
+- Sockets count in  room = 2
+- Sockets count in /2b7CTbBCdzFZiie-y7BN room = 1
+- Rooms count = 2
+- g20rU06TFriZ_a8Wy7BO disconnected.
+- Disconnect called by g20rU06TFriZ_a8Wy7BO
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- AAcad3jMwnQvb-sfy7BP is connected.
+- Room #AAcad3jMwnQvb-sfy7BP has been created.
+- Sockets count in  room = 1
+- Sockets count in /AAcad3jMwnQvb-sfy7BP room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /AAcad3jMwnQvb-sfy7BP room = 1
+- Rooms count = 2
+- r9oVY5dBY4O4VlSKy7BQ is connected.
+- Room # AAcad3jMwnQvb-sfy7BP is full.
+- 0 game started.
+- Sockets count in  room = 2
+- Sockets count in /AAcad3jMwnQvb-sfy7BP room = 2
+- Rooms count = 2
+- 1 game started.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 6 6 to 6 4
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 7 1 to 7 3
+ - Make move called.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 6 4 to 7 3
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 4 6 to 4 5
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 3 2 to 3 6
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 5 1 to 5 2
+ - Make move called.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 7 1 to 7 0
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 7 0 to 6 0
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- r9oVY5dBY4O4VlSKy7BQ maked move from 5 2 to 5 3
+ - Make move called.
+- Make move valid.
+- AAcad3jMwnQvb-sfy7BP maked move from 4 5 to 4 4
+- Disconnect called by AAcad3jMwnQvb-sfy7BP
+- Next
+- Sockets count in  room = 2
+- Sockets count in /AAcad3jMwnQvb-sfy7BP room = 1
+- Rooms count = 2
+- r9oVY5dBY4O4VlSKy7BQ disconnected.
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Next
+- Rooms count = 1
+- Disconnect called by r9oVY5dBY4O4VlSKy7BQ
+- Sockets count in  room = 1
+- Rooms count = 1
+- IaBWCn0IG1vnv0-Uy7BR is connected.
+- Disconnect called by IaBWCn0IG1vnv0-Uy7BR
+next
+- Sockets count in  room = 1
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
+- p_UWexP7UE4P7aEpy7BS is connected.
+- Room #p_UWexP7UE4P7aEpy7BS has been created.
+- Sockets count in  room = 1
+- Sockets count in /p_UWexP7UE4P7aEpy7BS room = 1
+- Rooms count = 2
+- Sockets count in  room = 2
+- Sockets count in /p_UWexP7UE4P7aEpy7BS room = 1
+- Rooms count = 2
+- J231GUla3OkKT91My7BT is connected.
+- Room # p_UWexP7UE4P7aEpy7BS is full.
+- 0 game started.
+- 1 game started.
+- Sockets count in  room = 2
+- Sockets count in /p_UWexP7UE4P7aEpy7BS room = 2
+- Rooms count = 2
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 6 6 to 6 4
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 7 1 to 7 3
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 6 4 to 7 3
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 7 0 to 7 2
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 5 6 to 5 5
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 7 2 to 3 2
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 7 3 to 7 2
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 3 2 to 3 6
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 7 2 to 7 1
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 4 1 to 4 2
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 7 1 to 7 0
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 7 0 to 6 0
+ - Make move called.
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 6 1 to 6 2
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 5 5 to 5 4
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 6 2 to 6 3
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 5 4 to 6 3
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 4 2 to 4 3
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 5 7 to 7 5
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 4 0 to 4 1
+ - Make move called.
+- Make move valid.
+- p_UWexP7UE4P7aEpy7BS maked move from 4 7 to 5 7
+ - Make move called.
+- Make move valid.
+- J231GUla3OkKT91My7BT maked move from 4 3 to 4 4
+- Disconnect called by p_UWexP7UE4P7aEpy7BS
+- Next
+- Sockets count in  room = 2
+- Sockets count in /p_UWexP7UE4P7aEpy7BS room = 1
+- Rooms count = 2
+- J231GUla3OkKT91My7BT disconnected.
+- Disconnect called by J231GUla3OkKT91My7BT
+- Next
+- Sockets count in  room = 2
+- Rooms count = 1
+- Sockets count in  room = 1
+- Rooms count = 1
