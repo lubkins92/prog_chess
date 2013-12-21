@@ -50,7 +50,12 @@
 	wantI: -1, //Желаемая позиция (еще не перешли) I
 	wantJ: -1, //Желаемая позиция (еще не перешли) J
 	};
-		
+	
+	xx=0;
+	yy=0;
+	
+	newfig=1;
+	
 	var newElem = document.createElement("table");
 	newElem.setAttribute("id", "table1"); 
 	newElem.setAttribute("class", "tbl1");
@@ -61,7 +66,10 @@
 	turn=2; //первый ход белыми
 	color=2;
 	change=0;  //смена пешки по окончанию поля
-		
+	fig=2;
+	
+	control=0; //если пешка дошла до конца поля, то очередь не нужно менять
+	
 	kor = {
 	figI: -1, //позиция возможно шахующей фигуры
 	figJ: -1, //позиция возможно шахующей фигуры

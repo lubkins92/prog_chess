@@ -45,12 +45,14 @@ function push(el)
 		
 	else if ((change==1) && (turn==0) && (color==0))	//обмен черной пешки в конце поля
 	{
-		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border","4px solid orange");
+		//$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border","4px solid orange");
 		if (($(el).attr("type") == "ladya") || ($(el).attr("type") == "kon") || ($(el).attr("type") == "slon") ||($(el).attr("type") == "ferz"))
 		{
 			piece.wantI = $(el).parent().parent().children().index($(el).parent());
 			piece.wantJ = $(el).parent().children().index($(el));
-			if (BlackTryChange(el)== false) { alert("Обмен невозможен!!!"); clear(); }	
+			piece.posI=xx;
+			piece.posJ=yy;
+			if (BlackTryChange()== false) { alert("Обмен невозможен!!!"); clear(); }	else newfig=1;
 		}
 		else 
 		{
@@ -59,12 +61,14 @@ function push(el)
 	}
 	else if ((change==1) && (turn==1) && (color==1))	 //обмен белой пешки в конце поля
 	{
-		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border","4px solid orange");
+		//$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border","4px solid orange");
 		if (($(el).attr("type") == "ladya") || ($(el).attr("type") == "kon") || ($(el).attr("type") == "slon") ||($(el).attr("type") == "ferz"))
 		{
 			piece.wantI = $(el).parent().parent().children().index($(el).parent());
 			piece.wantJ = $(el).parent().children().index($(el));
-			if (WhiteTryChange(el)== false) { alert("Обмен невозможен!!!"); clear(); }	
+			piece.posI=xx;
+			piece.posJ=yy;
+			if (WhiteTryChange()== false) { alert("Обмен невозможен!!!"); clear(); }	else newfig=1;
 		}
 		else 
 		{
@@ -143,14 +147,24 @@ function WhiteTryGo()
 
 function GO(xfrom, yfrom, xto, yto, newfigure)
 {
-	piece.posJ=xfrom; //текущая позиция I
-	piece.posI=yfrom; //текущая позиция J
-	piece.wantJ=xto; //Желаемая позиция (еще не перешли) J
-	piece.wantI=yto; //Желаемая позиция (еще не перешли) I
-	//newfigure=undefined;
+	piece.posI=xfrom; //текущая позиция I
+	piece.posJ=yfrom; //текущая позиция J
+	piece.wantI=xto; //Желаемая позиция (еще не перешли) J
+	piece.wantJ=yto; //Желаемая позиция (еще не перешли) I
+	fig=newfigure;
 	
-	if ((turn==0) && (color==1)) BlackTryGo(); //ты черный, а ходят белые
-	if ((turn==1) && (color==0)) WhiteTryGo(); //ты белый, а ходят черные
+	if ((fig==undefined) || (fig==1))
+	{
+		if ((turn==0) && (color==1)) WhiteTryGo(); //ты черный, а ходят белые
+		if ((turn==1) && (color==0)) BlackTryGo(); //ты белый, а ходят черные
+	}
+	else if (fig==0)
+	{
+		change=1; control=1;
+		if ((turn==0) && (color==1)) WhiteTryChange();
+		if ((turn==1) && (color==0)) BlackTryChange();
+		newfig=1;fig=1; control==0;
+	}
 }
 
 function emit()
@@ -160,18 +174,28 @@ function emit()
 	j= piece.posI;
 	ii=piece.wantJ;
 	jj=piece.wantI;
-	//if (peshkawho == null)
+	if (newfig == 1)
 	 socket.emit("makeMove",{xfrom: j, yfrom: i, xto: jj, yto: ii,});
-	 //else
-	 //socket.emit("makeMove",{xfrom: piece.posJ, yfrom: piece.posI, xto: piece.wanJ, yto: piece.wanI,newfigure: peshkawho,});
+	 else if (newfig==0)
+	 socket.emit("makeMove",{xfrom: j, yfrom: i, xto: jj, yto: ii, newfigure: newfig,});
 }
 
 function tturn()
 {
-	if ((turn==0) && (color==1)) color=0;
-	if ((turn==1) && (color==0)) color=1;
-	if ((turn==0) && (color==0)) { color=1; emit(); }
-	if ((turn==1) && (color==1)) { color=0; emit(); }
+	if (control==0)
+	{
+		if ((turn==0) && (color==1)) { color=0; return; }
+		if ((turn==1) && (color==0)) { color=1; return; }
+		if ((turn==0) && (color==0)) { color=1; emit(); return; }
+		if ((turn==1) && (color==1)) { color=0; emit(); return; }
+	}
+	else if (control==1) 
+	{ 
+		if ((turn==0) && (color==1)) { return; }
+		if ((turn==1) && (color==0)) { return; }
+		if ((turn==0) && (color==0)) { emit(); return; }
+		if ((turn==1) && (color==1)) { emit(); return; }
+	}
 }
 
 // ходы для всех вариантов + проверка на шах и мат
@@ -198,6 +222,7 @@ function change1()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name", "black");
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type", "peshka");	
@@ -207,7 +232,8 @@ function change1()
 	turn=1;
 	if (chah()==false)
 	{
-		turn=0;
+		//turn=0;
+		turn=realturn;
 		$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('6.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 		return true;
@@ -215,7 +241,8 @@ function change1()
 	}
 	else
 	{
-		turn=0;
+		//turn=0;
+		turn=realturn;
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('6.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");	
@@ -230,6 +257,7 @@ function change2()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name", "white");
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type", "peshka");
@@ -239,7 +267,8 @@ function change2()
 	turn=0;
 	if (chah()==false)
 	{
-		turn=1;
+		//turn=1;
+		turn=realturn;
 		$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('66.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 		return true;
@@ -247,7 +276,8 @@ function change2()
 	}
 	else
 	{
-		turn=1;
+		//turn=1;
+		turn=realturn;
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('66.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -262,7 +292,8 @@ function change3()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
-
+	var realturn=turn;
+	
 	if (change==0)
 	{
 		$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name", "white");
@@ -273,14 +304,16 @@ function change3()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('33.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('33.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "ladya");
@@ -297,14 +330,17 @@ function change3()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1; change=0;
+			//turn=1;
+			turn=realturn;			
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('33.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -318,6 +354,7 @@ function change4()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -329,14 +366,16 @@ function change4()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('3.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('3.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "ladya");
@@ -353,14 +392,17 @@ function change4()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0; change=0;
+			//turn=0; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('3.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -374,6 +416,7 @@ function change5()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -385,14 +428,16 @@ function change5()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('44.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('44.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "slon");
@@ -409,14 +454,17 @@ function change5()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1; change=0;
+			//turn=1; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('44.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -430,6 +478,7 @@ function change6()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -441,14 +490,16 @@ function change6()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('4.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('4.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "slon");
@@ -465,14 +516,17 @@ function change6()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0; change=0;
+			//turn=0; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('4.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -486,6 +540,7 @@ function change7()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -497,14 +552,16 @@ function change7()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('22.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('22.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "ferz");
@@ -521,14 +578,17 @@ function change7()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1; change=0;
+			//turn=1; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('22.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -542,6 +602,7 @@ function change8()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -553,14 +614,16 @@ function change8()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('2.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('2.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "ferz");
@@ -577,14 +640,17 @@ function change8()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0; change=0;
+			//turn=0; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('2.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -598,6 +664,7 @@ function change9()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -609,14 +676,16 @@ function change9()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('11.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('11.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "kon");
@@ -633,14 +702,17 @@ function change9()
 		turn=0;
 		if (chah()==false)
 		{
-			turn=1; change=0;
+			//turn=1; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('11.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=1;
+			//turn=1;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -654,6 +726,7 @@ function change10()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	if (change==0)
 	{
@@ -665,14 +738,16 @@ function change10()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('1.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('1.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "kon");
@@ -689,14 +764,17 @@ function change10()
 		turn=1;
 		if (chah()==false)
 		{
-			turn=0; change=0;
+			//turn=0; 
+			turn=realturn;
+			change=0; control=0;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('1.png')");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			return true;
 		}
 		else
 		{
-			turn=0;
+			//turn=0;
+			turn=realturn;
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 			$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "peshka");
@@ -710,6 +788,7 @@ function change11()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name", "white");
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type", "korol");
@@ -719,7 +798,8 @@ function change11()
 	turn=0;
 	if (chah()==false)
 	{
-		turn=1;
+		//turn=1;
+		turn=realturn;
 		$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('55.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 		return true;
@@ -727,7 +807,8 @@ function change11()
 	}
 	else
 	{
-		turn=1;
+		//turn=1;
+		turn=realturn;
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('55.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "white");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "korol");
@@ -742,6 +823,7 @@ function change12()
 {
 	var name = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name");
 	var type = $("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type");
+	var realturn=turn;
 	
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("name", "black");
 	$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type", "korol");
@@ -751,7 +833,8 @@ function change12()
 	turn=1;
 	if (chah()==false)
 	{
-		turn=0;
+		//turn=0;
+		turn=realturn;
 		$("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").css("background-image", "url('5.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "");	
 		return true;
@@ -759,7 +842,8 @@ function change12()
 	}
 	else
 	{
-		turn=0;
+		//turn=0;
+		turn=realturn;
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("background-image", "url('5.png')");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("name", "black");
 		$("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").attr("type", "korol");
@@ -795,17 +879,21 @@ function blpeshka()
 		if ($("tr:eq(" + i + ") > td:eq(" + j + ")").attr("type") == "korol") { $("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green"); alert("Ход невозможен!!!"); clear(); return false; }
 		
 		if (ii==1) first_in=1;
+		if (i==7) control=1; else control=0;
 		if ($("tr:eq(" + i + ") > td:eq(" + j + ")").attr("type") != "free") caneat=1; //значит в выбранной клетке стоит фигура, можно только есть 
 		
 		if ((i==ii+2) && (j==jj) && (first_in==1) && (caneat==0)) { fl=1; if (makeMove(tp)==false) fl=0; return true; } //первый ход пешки через клетку
 		if ((i==ii+1) && (j==jj) && (caneat==0)) { fl=1; if (makeMove(tp)==false) fl=0; } //простой ход пешки
 		if ((i==ii+1) && ((j==jj+1) || (j==jj-1)) && (caneat==1)) { fl=1; if (makeMove(tp)==false) fl=0; }
 		
-		if ((i==7) && (fl==1)) //если дошли до конца поля
+		if ((i==7) && (fl==1) && (turn==0)) //если дошли до конца поля
 		{
 			change=1;
-			piece.posI=i;
-			piece.posJ=j;
+			//piece.posI=i;
+			//piece.posJ=j;
+			xx=i;
+			yy=j;
+			$("tr:eq(" + xx + ") > td:eq(" + yy + ")").css("border","4px solid orange");
 			clear();
 			turn=0;
 			alert("Для смены пешки необходимо выделить фигуру, на которую следует ее поменять");
@@ -841,17 +929,21 @@ function whpeshka()
 		if ($("tr:eq(" + i + ") > td:eq(" + j + ")").attr("type") == "korol") { $("tr:eq(" + piece.posI + ") > td:eq(" + piece.posJ + ")").css("border", "1px solid green"); alert("Ход невозможен!!!"); clear(); return false; }
 		
 		if (ii==6) first_in=1;
+		if (i==0) control=1; else control=0;
 		if ($("tr:eq(" + i + ") > td:eq(" + j + ")").attr("type") != "free") caneat=1;	//значит в выбранной клетке стоит фигура, можно только есть 
 		
 		if ((i==ii-2) && (j==jj) && (first_in==1) && (caneat==0)) { fl=1; if (makeMove(tp)==false) fl=0;  return true; } //первый ход пешки через клетку
 		if ((i==ii-1) && (j==jj) && (caneat==0)) { fl=1; if (makeMove(tp)==false) fl=0;  } //простой ход пешки
 		if ((i==ii-1) && ((j==jj+1) || (j==jj-1)) && (caneat==1)) { fl=1; if (makeMove(tp)==false) fl=0;  }
 		
-		if ((i==0) && (fl==1)) //если дошли до конца поля
+		if ((i==0) && (fl==1) && (turn==1)) //если дошли до конца поля
 		{
 			change=1;
-			piece.posI=i;
-			piece.posJ=j;
+			//piece.posI=i;
+			//piece.posJ=j;
+			xx=i;
+			yy=j;
+			$("tr:eq(" + xx + ") > td:eq(" + yy + ")").css("border","4px solid orange");
 			clear();
 			turn=1;
 			alert("Для смены пешки необходимо выделить фигуру, на которую следует ее поменять");
@@ -1105,19 +1197,21 @@ function blladya(type)
 //замена черной пешки в конце поля
 function BlackTryChange()  
 {
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ladya") if (makeMove(4)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "slon") if (makeMove(6)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ferz") if (makeMove(8)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "kon") if (makeMove(10)==false) return false; else return true;
+newfig=0;
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ladya") /*piece.newfig="rook";*/ if (makeMove(4)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "slon")  /*piece.newfig="bishop";*/ if (makeMove(6)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ferz")  /*piece.newfig="queen";*/ if (makeMove(8)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "kon")  /*piece.newfig="knight";*/ if (makeMove(10)==false) return false; else return true; 
 }
 
 //замена белой пешки в конце поля
 function WhiteTryChange()  
 {
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ladya") if (makeMove(3)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "slon") if (makeMove(5)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ferz") if (makeMove(7)==false) return false; else return true;
-	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "kon") if (makeMove(9)==false) return false; else return true;
+newfig=0;
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ladya") /*piece.newfig="rook";*/ if (makeMove(3)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "slon")  /*piece.newfig="bishop";*/ if (makeMove(5)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "ferz")  /*piece.newfig="queen";*/ if (makeMove(7)==false) return false; else return true; 
+	if ($("tr:eq(" + piece.wantI + ") > td:eq(" + piece.wantJ + ")").attr("type") == "kon")   /*piece.newfig="knight";*/ if (makeMove(9)==false) return false; else return true; 
 }
 
 // ход белым слоном
